@@ -1,6 +1,6 @@
 # Bootstrap::Modal::Rails
 
-Rails Asset Gem for the default [https://github.com/jschr/bootstrap-modal](Bootstrap Modal) class by [https://github.com/jschr](Jordan Schroter)
+Rails Asset Gem for the default [Bootstrap Modal](https://github.com/jschr/bootstrap-modal) class by [Jordan Schroter](https://github.com/jschr)
 
 ## Installation
 
