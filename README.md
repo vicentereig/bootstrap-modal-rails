@@ -40,7 +40,7 @@ $ gem install bootstrap-modal-rails
 
 ## Versioning
 
-This gem will directly track the semantic versioning releases of the [https://github.com/jschr/bootstrap-modal](Bootstrap Modal) project.
+This gem will directly track the semantic versioning releases of the [Bootstrap Modal](https://github.com/jschr/bootstrap-modal) project.
 If it should be necessary a build number will be added to the version to mark releases specific to this gem.
 
 ## Note on Patches / Pull Requests
