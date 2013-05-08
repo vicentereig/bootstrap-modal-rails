@@ -29,13 +29,19 @@ $ gem install bootstrap-modal-rails
 ### Stylesheets
 
 ```sass
-@import bootstrap-modal
+//=require bootstrap-modal
 ```
 
 ### Javascripts
+
 ```coffeescript
 #= require bootstrap-modal
 #= require bootstrap-modalmanager
+```
+
+```javascript
+//= require bootstrap-modal
+//= require bootstrap-modalmanager
 ```
 
 ## Versioning
