@@ -1,5 +1,5 @@
 /* ===========================================================
- * bootstrap-modal.js v2.1
+ * bootstrap-modal.js v2.2.0
  * ===========================================================
  * Copyright 2012 Jordan Schroter
  *
@@ -33,12 +33,17 @@
 		constructor: Modal,
 
 		init: function (element, options) {
+			var that = this;
+
 			this.options = options;
 
 			this.$element = $(element)
 				.delegate('[data-dismiss="modal"]', 'click.dismiss.modal', $.proxy(this.hide, this));
 
-			this.options.remote && this.$element.find('.modal-body').load(this.options.remote);
+			this.options.remote && this.$element.find('.modal-body').load(this.options.remote, function () {
+				var e = $.Event('loaded');
+				that.$element.trigger(e);
+			});
 
 			var manager = typeof this.options.manager === 'function' ?
 				this.options.manager.call(this) : this.options.manager;
@@ -202,10 +207,6 @@
 		},
 
 		hideModal: function () {
-			this.$element
-				.hide()
-				.trigger('hidden');
-
 			var prop = this.options.height ? 'height' : 'max-height';
 			var value = this.options.height || this.options.maxHeight;
 
@@ -215,6 +216,9 @@
 					.css(prop, '');
 			}
 
+			this.$element
+				.hide()
+				.trigger('hidden');
 		},
 
 		removeLoading: function () {
@@ -346,7 +350,8 @@
 		resize: false,
 		attentionAnimation: 'shake',
 		manager: 'body',
-		spinner: '<div class="loading-spinner" style="width: 200px; margin-left: -100px;"><div class="progress progress-striped active"><div class="bar" style="width: 100%;"></div></div></div>'
+		spinner: '<div class="loading-spinner" style="width: 200px; margin-left: -100px;"><div class="progress progress-striped active"><div class="bar" style="width: 100%;"></div></div></div>',
+		backdropTemplate: '<div class="modal-backdrop" />'
 	};
 
 	$.fn.modal.Constructor = Modal;
