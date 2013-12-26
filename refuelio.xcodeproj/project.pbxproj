@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38042337392D4A2C8AE7FEE7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E997C86D584C1AB68CC09E /* libPods.a */; };
+		9F17D93E186C0D9C00753750 /* naked-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F17D93D186C0D9C00753750 /* naked-logo.png */; };
 		9F3D1F5D186C000C004D7DB1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */; };
 		9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */; };
 		9F3D1F61186C001D004D7DB1 /* Refuelio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5F186C001D004D7DB1 /* Refuelio.xcdatamodeld */; };
@@ -17,17 +18,6 @@
 		9F3D1F6E186C0061004D7DB1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F6A186C0061004D7DB1 /* User.m */; };
 		9F3D1F71186C0067004D7DB1 /* SessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F70186C0067004D7DB1 /* SessionService.m */; };
 		9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F72186C00AD004D7DB1 /* Main.storyboard */; };
-		9F3D1F7F186C00C1004D7DB1 /* launch-image-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */; };
-		9F3D1F80186C00C1004D7DB1 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */; };
-		9F3D1F81186C00C1004D7DB1 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F76186C00C1004D7DB1 /* Icon-100.png */; };
-		9F3D1F82186C00C1004D7DB1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */; };
-		9F3D1F83186C00C1004D7DB1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F78186C00C1004D7DB1 /* Icon-72.png */; };
-		9F3D1F84186C00C1004D7DB1 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */; };
-		9F3D1F85186C00C1004D7DB1 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */; };
-		9F3D1F86186C00C1004D7DB1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7B186C00C1004D7DB1 /* Icon.png */; };
-		9F3D1F87186C00C1004D7DB1 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */; };
-		9F3D1F88186C00C1004D7DB1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */; };
-		9F3D1F89186C00C1004D7DB1 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */; };
 		9F836827186BFFAA000FE101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836826186BFFAA000FE101 /* Foundation.framework */; };
 		9F836829186BFFAA000FE101 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836828186BFFAA000FE101 /* CoreGraphics.framework */; };
 		9F83682B186BFFAA000FE101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F83682A186BFFAA000FE101 /* UIKit.framework */; };
@@ -56,6 +46,7 @@
 /* Begin PBXFileReference section */
 		50E997C86D584C1AB68CC09E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		872DC7AA04FB4AE89900F4A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9F17D93D186C0D9C00753750 /* naked-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "naked-logo.png"; path = "Attrezzo/naked-logo.png"; sourceTree = "<group>"; };
 		9F3D1F5A186C000C004D7DB1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -71,17 +62,6 @@
 		9F3D1F6F186C0067004D7DB1 /* SessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionService.h; sourceTree = "<group>"; };
 		9F3D1F70186C0067004D7DB1 /* SessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionService.m; sourceTree = "<group>"; };
 		9F3D1F72186C00AD004D7DB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-image-iphone.png"; path = "../../../Documents/artboards/launch-image-iphone.png"; sourceTree = "<group>"; };
-		9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../Documents/artboards/Icon-Small.png"; sourceTree = "<group>"; };
-		9F3D1F76186C00C1004D7DB1 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-100.png"; path = "../../../Documents/artboards/Icon-100.png"; sourceTree = "<group>"; };
-		9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../Documents/artboards/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		9F3D1F78186C00C1004D7DB1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../Documents/artboards/Icon-72.png"; sourceTree = "<group>"; };
-		9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../../Documents/artboards/Icon-Small-50.png"; sourceTree = "<group>"; };
-		9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../Documents/artboards/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		9F3D1F7B186C00C1004D7DB1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Documents/artboards/Icon.png; sourceTree = "<group>"; };
-		9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../../../Documents/artboards/Icon-144.png"; sourceTree = "<group>"; };
-		9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Documents/artboards/Icon@2x.png"; sourceTree = "<group>"; };
-		9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../../../Documents/artboards/iTunesArtwork.png; sourceTree = "<group>"; };
 		9F836823186BFFAA000FE101 /* refuelio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refuelio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F836826186BFFAA000FE101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F836828186BFFAA000FE101 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,18 +134,7 @@
 		9F3D1F8A186C00CC004D7DB1 /* Attrezzo */ = {
 			isa = PBXGroup;
 			children = (
-				9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */,
-				9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */,
-				9F3D1F76186C00C1004D7DB1 /* Icon-100.png */,
-				9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */,
-				9F3D1F78186C00C1004D7DB1 /* Icon-72.png */,
-				9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */,
-				9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */,
-				9F3D1F7B186C00C1004D7DB1 /* Icon.png */,
-				9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */,
-				9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */,
-				9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */,
-				9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */,
+				9F17D93D186C0D9C00753750 /* naked-logo.png */,
 			);
 			name = Attrezzo;
 			sourceTree = "<group>";
@@ -205,6 +174,7 @@
 		9F83682C186BFFAA000FE101 /* refuelio */ = {
 			isa = PBXGroup;
 			children = (
+				9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */,
 				9F83685B186BFFB6000FE101 /* Controllers */,
 				9F3D1F8A186C00CC004D7DB1 /* Attrezzo */,
 				9F3D1F62186C0061004D7DB1 /* Models */,
@@ -338,21 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3D1F86186C00C1004D7DB1 /* Icon.png in Resources */,
 				9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */,
-				9F3D1F7F186C00C1004D7DB1 /* launch-image-iphone.png in Resources */,
-				9F3D1F89186C00C1004D7DB1 /* iTunesArtwork.png in Resources */,
-				9F3D1F83186C00C1004D7DB1 /* Icon-72.png in Resources */,
-				9F3D1F80186C00C1004D7DB1 /* Icon-Small.png in Resources */,
-				9F3D1F82186C00C1004D7DB1 /* iTunesArtwork@2x.png in Resources */,
-				9F3D1F87186C00C1004D7DB1 /* Icon-144.png in Resources */,
 				9F83683F186BFFAA000FE101 /* Images.xcassets in Resources */,
 				9F836831186BFFAA000FE101 /* InfoPlist.strings in Resources */,
-				9F3D1F88186C00C1004D7DB1 /* Icon@2x.png in Resources */,
-				9F3D1F84186C00C1004D7DB1 /* Icon-Small-50.png in Resources */,
-				9F3D1F81186C00C1004D7DB1 /* Icon-100.png in Resources */,
 				9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */,
-				9F3D1F85186C00C1004D7DB1 /* Icon-Small@2x.png in Resources */,
+				9F17D93E186C0D9C00753750 /* naked-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

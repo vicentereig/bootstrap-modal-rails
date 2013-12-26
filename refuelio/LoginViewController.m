@@ -19,9 +19,9 @@
 
 @implementation LoginViewController
 
-- (BOOL) textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder]; // stop using the keyboard
-    return YES;
+- (void) viewDidLoad
+{
+    [self.emailInputField becomeFirstResponder];
 }
 
 - (BOOL) validateEmailField
@@ -70,18 +70,38 @@
     return YES;
 }
 
-- (IBAction)performLogin:(id)sender {
+- (BOOL) textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder]; // stop using the keyboard
+    
+    if (textField == self.emailInputField) {
+        [self.passwordInputField becomeFirstResponder];
+    }
+    
+    if (textField == self.passwordInputField) {
+        [self validateAndSubmit];
+    }
+    
+    return YES;
+}
+
+- (void) validateAndSubmit
+{
     if ( [self validateEmailField] && [self validatePasswordField] )
     {
         NSString *userName = [self.emailInputField text];
         NSString *password = [self.passwordInputField text];
-
+        
         [User authenticateWithEmail: userName
                         AndPassword: password
-              inManagedObjectContext: nil];
+             inManagedObjectContext: nil];
         
         
     }
+}
+
+- (IBAction)performLogin:(id)sender {
+    [self validateAndSubmit];
 }
 
 @end
