@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Fuel" representedClassName="Fuel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="refuelings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Refueling" inverseName="fuel" inverseEntity="Refueling" syncable="YES"/>
+    </entity>
+    <entity name="Refueling" representedClassName="Refueling" syncable="YES">
+        <attribute name="amountSaved" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="amountSpent" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="fuel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fuel" inverseName="refuelings" inverseEntity="Fuel" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="refuelings" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="email" attributeType="String" minValueString="3" indexed="YES" syncable="YES"/>
+        <relationship name="refuelings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Refueling" inverseName="user" inverseEntity="Refueling" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Fuel" positionX="556" positionY="216" width="128" height="88"/>
+        <element name="Refueling" positionX="268" positionY="140" width="128" height="148"/>
+        <element name="User" positionX="-45" positionY="207" width="128" height="103"/>
+    </elements>
+</model>

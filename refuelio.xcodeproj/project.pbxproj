@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38042337392D4A2C8AE7FEE7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E997C86D584C1AB68CC09E /* libPods.a */; };
+		9F3D1F5D186C000C004D7DB1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */; };
+		9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */; };
+		9F3D1F61186C001D004D7DB1 /* Refuelio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5F186C001D004D7DB1 /* Refuelio.xcdatamodeld */; };
+		9F3D1F6B186C0061004D7DB1 /* Fuel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F64186C0061004D7DB1 /* Fuel.m */; };
+		9F3D1F6C186C0061004D7DB1 /* Refueling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F66186C0061004D7DB1 /* Refueling.m */; };
+		9F3D1F6D186C0061004D7DB1 /* User+Authenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */; };
+		9F3D1F6E186C0061004D7DB1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F6A186C0061004D7DB1 /* User.m */; };
+		9F3D1F71186C0067004D7DB1 /* SessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F70186C0067004D7DB1 /* SessionService.m */; };
+		9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F72186C00AD004D7DB1 /* Main.storyboard */; };
+		9F3D1F7F186C00C1004D7DB1 /* launch-image-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */; };
+		9F3D1F80186C00C1004D7DB1 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */; };
+		9F3D1F81186C00C1004D7DB1 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F76186C00C1004D7DB1 /* Icon-100.png */; };
+		9F3D1F82186C00C1004D7DB1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */; };
+		9F3D1F83186C00C1004D7DB1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F78186C00C1004D7DB1 /* Icon-72.png */; };
+		9F3D1F84186C00C1004D7DB1 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */; };
+		9F3D1F85186C00C1004D7DB1 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */; };
+		9F3D1F86186C00C1004D7DB1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7B186C00C1004D7DB1 /* Icon.png */; };
+		9F3D1F87186C00C1004D7DB1 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */; };
+		9F3D1F88186C00C1004D7DB1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */; };
+		9F3D1F89186C00C1004D7DB1 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */; };
 		9F836827186BFFAA000FE101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836826186BFFAA000FE101 /* Foundation.framework */; };
 		9F836829186BFFAA000FE101 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836828186BFFAA000FE101 /* CoreGraphics.framework */; };
 		9F83682B186BFFAA000FE101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F83682A186BFFAA000FE101 /* UIKit.framework */; };
 		9F836831186BFFAA000FE101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F83682F186BFFAA000FE101 /* InfoPlist.strings */; };
 		9F836833186BFFAA000FE101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836832186BFFAA000FE101 /* main.m */; };
 		9F836837186BFFAA000FE101 /* RefuelioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836836186BFFAA000FE101 /* RefuelioAppDelegate.m */; };
-		9F83683A186BFFAA000FE101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F836838186BFFAA000FE101 /* Main.storyboard */; };
 		9F83683D186BFFAA000FE101 /* RefuelioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F83683C186BFFAA000FE101 /* RefuelioViewController.m */; };
 		9F83683F186BFFAA000FE101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F83683E186BFFAA000FE101 /* Images.xcassets */; };
 		9F836846186BFFAA000FE101 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836845186BFFAA000FE101 /* XCTest.framework */; };
@@ -34,6 +54,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50E997C86D584C1AB68CC09E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		872DC7AA04FB4AE89900F4A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9F3D1F5A186C000C004D7DB1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9F3D1F60186C001D004D7DB1 /* Refuelio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Refuelio.xcdatamodel; sourceTree = "<group>"; };
+		9F3D1F63186C0061004D7DB1 /* Fuel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fuel.h; sourceTree = "<group>"; };
+		9F3D1F64186C0061004D7DB1 /* Fuel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fuel.m; sourceTree = "<group>"; };
+		9F3D1F65186C0061004D7DB1 /* Refueling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Refueling.h; sourceTree = "<group>"; };
+		9F3D1F66186C0061004D7DB1 /* Refueling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Refueling.m; sourceTree = "<group>"; };
+		9F3D1F67186C0061004D7DB1 /* User+Authenticate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+Authenticate.h"; sourceTree = "<group>"; };
+		9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+Authenticate.m"; sourceTree = "<group>"; };
+		9F3D1F69186C0061004D7DB1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9F3D1F6A186C0061004D7DB1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9F3D1F6F186C0067004D7DB1 /* SessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionService.h; sourceTree = "<group>"; };
+		9F3D1F70186C0067004D7DB1 /* SessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionService.m; sourceTree = "<group>"; };
+		9F3D1F72186C00AD004D7DB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-image-iphone.png"; path = "../../../Documents/artboards/launch-image-iphone.png"; sourceTree = "<group>"; };
+		9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../Documents/artboards/Icon-Small.png"; sourceTree = "<group>"; };
+		9F3D1F76186C00C1004D7DB1 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-100.png"; path = "../../../Documents/artboards/Icon-100.png"; sourceTree = "<group>"; };
+		9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../Documents/artboards/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		9F3D1F78186C00C1004D7DB1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../Documents/artboards/Icon-72.png"; sourceTree = "<group>"; };
+		9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../../Documents/artboards/Icon-Small-50.png"; sourceTree = "<group>"; };
+		9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../Documents/artboards/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9F3D1F7B186C00C1004D7DB1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Documents/artboards/Icon.png; sourceTree = "<group>"; };
+		9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../../../Documents/artboards/Icon-144.png"; sourceTree = "<group>"; };
+		9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Documents/artboards/Icon@2x.png"; sourceTree = "<group>"; };
+		9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../../../Documents/artboards/iTunesArtwork.png; sourceTree = "<group>"; };
 		9F836823186BFFAA000FE101 /* refuelio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refuelio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F836826186BFFAA000FE101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F836828186BFFAA000FE101 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +92,6 @@
 		9F836834186BFFAA000FE101 /* refuelio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "refuelio-Prefix.pch"; sourceTree = "<group>"; };
 		9F836835186BFFAA000FE101 /* RefuelioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefuelioAppDelegate.h; sourceTree = "<group>"; };
 		9F836836186BFFAA000FE101 /* RefuelioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefuelioAppDelegate.m; sourceTree = "<group>"; };
-		9F836839186BFFAA000FE101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F83683B186BFFAA000FE101 /* RefuelioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefuelioViewController.h; sourceTree = "<group>"; };
 		9F83683C186BFFAA000FE101 /* RefuelioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefuelioViewController.m; sourceTree = "<group>"; };
 		9F83683E186BFFAA000FE101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,6 +110,7 @@
 				9F836829186BFFAA000FE101 /* CoreGraphics.framework in Frameworks */,
 				9F83682B186BFFAA000FE101 /* UIKit.framework in Frameworks */,
 				9F836827186BFFAA000FE101 /* Foundation.framework in Frameworks */,
+				38042337392D4A2C8AE7FEE7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +127,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F17D93C186C011E00753750 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D1F6F186C0067004D7DB1 /* SessionService.h */,
+				9F3D1F70186C0067004D7DB1 /* SessionService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		9F3D1F62186C0061004D7DB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D1F63186C0061004D7DB1 /* Fuel.h */,
+				9F3D1F64186C0061004D7DB1 /* Fuel.m */,
+				9F3D1F65186C0061004D7DB1 /* Refueling.h */,
+				9F3D1F66186C0061004D7DB1 /* Refueling.m */,
+				9F3D1F67186C0061004D7DB1 /* User+Authenticate.h */,
+				9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */,
+				9F3D1F69186C0061004D7DB1 /* User.h */,
+				9F3D1F6A186C0061004D7DB1 /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F3D1F8A186C00CC004D7DB1 /* Attrezzo */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D1F74186C00C1004D7DB1 /* launch-image-iphone.png */,
+				9F3D1F75186C00C1004D7DB1 /* Icon-Small.png */,
+				9F3D1F76186C00C1004D7DB1 /* Icon-100.png */,
+				9F3D1F77186C00C1004D7DB1 /* iTunesArtwork@2x.png */,
+				9F3D1F78186C00C1004D7DB1 /* Icon-72.png */,
+				9F3D1F79186C00C1004D7DB1 /* Icon-Small-50.png */,
+				9F3D1F7A186C00C1004D7DB1 /* Icon-Small@2x.png */,
+				9F3D1F7B186C00C1004D7DB1 /* Icon.png */,
+				9F3D1F7C186C00C1004D7DB1 /* Icon-144.png */,
+				9F3D1F7D186C00C1004D7DB1 /* Icon@2x.png */,
+				9F3D1F7E186C00C1004D7DB1 /* iTunesArtwork.png */,
+				9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */,
+			);
+			name = Attrezzo;
+			sourceTree = "<group>";
+		};
 		9F83681A186BFFAA000FE101 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +177,7 @@
 				9F83684B186BFFAA000FE101 /* refuelioTests */,
 				9F836825186BFFAA000FE101 /* Frameworks */,
 				9F836824186BFFAA000FE101 /* Products */,
+				872DC7AA04FB4AE89900F4A9 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +197,7 @@
 				9F836828186BFFAA000FE101 /* CoreGraphics.framework */,
 				9F83682A186BFFAA000FE101 /* UIKit.framework */,
 				9F836845186BFFAA000FE101 /* XCTest.framework */,
+				50E997C86D584C1AB68CC09E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +205,14 @@
 		9F83682C186BFFAA000FE101 /* refuelio */ = {
 			isa = PBXGroup;
 			children = (
+				9F83685B186BFFB6000FE101 /* Controllers */,
+				9F3D1F8A186C00CC004D7DB1 /* Attrezzo */,
+				9F3D1F62186C0061004D7DB1 /* Models */,
+				9F17D93C186C011E00753750 /* Services */,
+				9F3D1F5F186C001D004D7DB1 /* Refuelio.xcdatamodeld */,
 				9F836835186BFFAA000FE101 /* RefuelioAppDelegate.h */,
 				9F836836186BFFAA000FE101 /* RefuelioAppDelegate.m */,
-				9F836838186BFFAA000FE101 /* Main.storyboard */,
-				9F83683B186BFFAA000FE101 /* RefuelioViewController.h */,
-				9F83683C186BFFAA000FE101 /* RefuelioViewController.m */,
+				9F3D1F72186C00AD004D7DB1 /* Main.storyboard */,
 				9F83683E186BFFAA000FE101 /* Images.xcassets */,
 				9F83682D186BFFAA000FE101 /* Supporting Files */,
 			);
@@ -152,6 +248,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9F83685B186BFFB6000FE101 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D1F5A186C000C004D7DB1 /* LoginViewController.h */,
+				9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */,
+				9F83683B186BFFAA000FE101 /* RefuelioViewController.h */,
+				9F83683C186BFFAA000FE101 /* RefuelioViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F836855186BFFAB000FE101 /* Build configuration list for PBXNativeTarget "refuelio" */;
 			buildPhases = (
+				988C675FD1194F17BE05668D /* Check Pods Manifest.lock */,
 				9F83681F186BFFAA000FE101 /* Sources */,
 				9F836820186BFFAA000FE101 /* Frameworks */,
 				9F836821186BFFAA000FE101 /* Resources */,
+				EE78BB00444944DF90FDF3A9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +338,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3D1F86186C00C1004D7DB1 /* Icon.png in Resources */,
+				9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */,
+				9F3D1F7F186C00C1004D7DB1 /* launch-image-iphone.png in Resources */,
+				9F3D1F89186C00C1004D7DB1 /* iTunesArtwork.png in Resources */,
+				9F3D1F83186C00C1004D7DB1 /* Icon-72.png in Resources */,
+				9F3D1F80186C00C1004D7DB1 /* Icon-Small.png in Resources */,
+				9F3D1F82186C00C1004D7DB1 /* iTunesArtwork@2x.png in Resources */,
+				9F3D1F87186C00C1004D7DB1 /* Icon-144.png in Resources */,
 				9F83683F186BFFAA000FE101 /* Images.xcassets in Resources */,
 				9F836831186BFFAA000FE101 /* InfoPlist.strings in Resources */,
-				9F83683A186BFFAA000FE101 /* Main.storyboard in Resources */,
+				9F3D1F88186C00C1004D7DB1 /* Icon@2x.png in Resources */,
+				9F3D1F84186C00C1004D7DB1 /* Icon-Small-50.png in Resources */,
+				9F3D1F81186C00C1004D7DB1 /* Icon-100.png in Resources */,
+				9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */,
+				9F3D1F85186C00C1004D7DB1 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +366,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		988C675FD1194F17BE05668D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE78BB00444944DF90FDF3A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F83681F186BFFAA000FE101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3D1F5D186C000C004D7DB1 /* LoginViewController.m in Sources */,
+				9F3D1F61186C001D004D7DB1 /* Refuelio.xcdatamodeld in Sources */,
+				9F3D1F6E186C0061004D7DB1 /* User.m in Sources */,
 				9F836833186BFFAA000FE101 /* main.m in Sources */,
+				9F3D1F6B186C0061004D7DB1 /* Fuel.m in Sources */,
+				9F3D1F71186C0067004D7DB1 /* SessionService.m in Sources */,
 				9F83683D186BFFAA000FE101 /* RefuelioViewController.m in Sources */,
+				9F3D1F6C186C0061004D7DB1 /* Refueling.m in Sources */,
 				9F836837186BFFAA000FE101 /* RefuelioAppDelegate.m in Sources */,
+				9F3D1F6D186C0061004D7DB1 /* User+Authenticate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +442,6 @@
 				9F836830186BFFAA000FE101 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9F836838186BFFAA000FE101 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F836839186BFFAA000FE101 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		9F83684E186BFFAB000FE101 /* InfoPlist.strings */ = {
@@ -376,6 +529,7 @@
 		};
 		9F836856186BFFAB000FE101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872DC7AA04FB4AE89900F4A9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +543,7 @@
 		};
 		9F836857186BFFAB000FE101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872DC7AA04FB4AE89900F4A9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +616,7 @@
 				9F836857186BFFAB000FE101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F836858186BFFAB000FE101 /* Build configuration list for PBXNativeTarget "refuelioTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +625,22 @@
 				9F83685A186BFFAB000FE101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F3D1F5F186C001D004D7DB1 /* Refuelio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F3D1F60186C001D004D7DB1 /* Refuelio.xcdatamodel */,
+			);
+			currentVersion = 9F3D1F60186C001D004D7DB1 /* Refuelio.xcdatamodel */;
+			path = Refuelio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9F83681B186BFFAA000FE101 /* Project object */;
 }
