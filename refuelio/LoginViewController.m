@@ -76,9 +76,9 @@
         NSString *userName = [self.emailInputField text];
         NSString *password = [self.passwordInputField text];
 
-        User *user = [User authenticateWithEmail: userName
-                                     AndPassword: password
-                          inManagedObjectContext: nil];
+        [User authenticateWithEmail: userName
+                        AndPassword: password
+              inManagedObjectContext: nil];
         
         
     }

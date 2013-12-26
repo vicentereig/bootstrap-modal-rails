@@ -7,8 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "User.h"
 
 @interface SessionService : NSObject
-+ authenticateUser:(NSString*)email password:(NSString*)password;
+typedef void (^SessionCompletionBlock)(NSDictionary *response);
+typedef void (^SessionFailureBlock)(NSError *error);
+
++ authenticateUser:(NSString*)email
+          password:(NSString*)password
+           succeeded:(SessionCompletionBlock)successCallback
+            failed:(SessionFailureBlock)failureCallback;
+
++ authenticateUserFromKeyChain;
+
 @end

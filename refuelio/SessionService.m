@@ -9,10 +9,16 @@
 #import "SessionService.h"
 #import "AFNetworking/AFNetworking.h"
 
+#define HTTP_FORBIDEN 403
+#define HTTP_SERVER_ERROR 500
+
 @implementation SessionService
-+ authenticateUser:(NSString*)email password:(NSString*)password
++ authenticateUser:(NSString*)email
+          password:(NSString*)password
+         succeeded:(SessionCompletionBlock)successCallback
+            failed:(SessionFailureBlock)failureCallback
 {
-    NSLog(@"Performing login %@ %@", email, password);
+    NSLog(@"Performing login %@", email);
     NSDictionary *params  = @{@"session":@{@"email": email, @"password": password}};
     NSString *APIEndpoint = @"http://api.ahorraralrepostar.com/sessions.json";
     
@@ -24,8 +30,14 @@
     
     [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
+        successCallback((NSDictionary*)responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"error: %@", error);
+        if (HTTP_FORBIDEN == [operation.response statusCode]) {
+            NSLog(@"Wrong credentials. Consider registering.");
+            failureCallback(error);
+        } else {
+            NSLog(@"error: %@", error);
+        }
     }];
     
     [[NSOperationQueue mainQueue] addOperation:op];
