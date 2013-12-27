@@ -10,14 +10,11 @@
 #import "User.h"
 
 @interface SessionService : NSObject
-typedef void (^SessionCompletionBlock)(NSDictionary *response);
+typedef void (^SessionCompletionBlock)(NSDictionary *sessionAttributes);
 typedef void (^SessionFailureBlock)(NSError *error);
 
 + authenticateUser:(NSString*)email
           password:(NSString*)password
            succeeded:(SessionCompletionBlock)successCallback
             failed:(SessionFailureBlock)failureCallback;
-
-+ authenticateUserFromKeyChain;
-
 @end

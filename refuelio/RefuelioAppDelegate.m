@@ -7,16 +7,57 @@
 //
 
 #import "RefuelioAppDelegate.h"
+#import <CoreData/CoreData.h>
 #import <Crashlytics/Crashlytics.h>
 
+@interface RefuelioAppDelegate()
+@property (strong, nonatomic) UIManagedDocument *document;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@end
+
 @implementation RefuelioAppDelegate
+@synthesize document;
+
+- (void) setupUIManagedDocument
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSURL *documentsDirectory  = [[fileManager URLsForDirectory:NSDocumentDirectory
+                                                      inDomains:NSUserDomainMask] firstObject];
+    
+    NSString *documentName     = @"Refuelio";
+    NSURL *url                 = [documentsDirectory URLByAppendingPathComponent:documentName];
+    UIManagedDocument *doc     = [[UIManagedDocument alloc] initWithFileURL:url];
+    self.document              = doc;
+
+    if ([fileManager fileExistsAtPath:[url path]]) {
+        [self.document openWithCompletionHandler:^(BOOL success) {
+            if (success) [self documentIsReady];
+            if (!success) NSLog(@"Could not open document at %@", url);
+        }];
+    } else {
+        [self.document saveToURL:url forSaveOperation:UIDocumentSaveForCreating completionHandler:^(BOOL success) {
+            if (success) [self documentIsReady];
+            if (!success) NSLog(@"Could not create document at %@", url);
+        }];
+    }
+}
+
+- (void) documentIsReady
+{
+    if (self.document.documentState == UIDocumentStateNormal) {
+        NSManagedObjectContext *managedObjectContext = self.document.managedObjectContext;
+        NSLog(@"Got the MOC!");
+        self.managedObjectContext = managedObjectContext;
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [Crashlytics startWithAPIKey:@"53e759f75db846b829ff35a614a509427aeac692"];
+//    [self setupUIManagedDocument];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

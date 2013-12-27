@@ -12,10 +12,7 @@
 		9F3D1F5D186C000C004D7DB1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */; };
 		9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */; };
 		9F3D1F61186C001D004D7DB1 /* Refuelio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F5F186C001D004D7DB1 /* Refuelio.xcdatamodeld */; };
-		9F3D1F6B186C0061004D7DB1 /* Fuel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F64186C0061004D7DB1 /* Fuel.m */; };
-		9F3D1F6C186C0061004D7DB1 /* Refueling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F66186C0061004D7DB1 /* Refueling.m */; };
 		9F3D1F6D186C0061004D7DB1 /* User+Authenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */; };
-		9F3D1F6E186C0061004D7DB1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F6A186C0061004D7DB1 /* User.m */; };
 		9F3D1F71186C0067004D7DB1 /* SessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D1F70186C0067004D7DB1 /* SessionService.m */; };
 		9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D1F72186C00AD004D7DB1 /* Main.storyboard */; };
 		9F836827186BFFAA000FE101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836826186BFFAA000FE101 /* Foundation.framework */; };
@@ -32,6 +29,11 @@
 		9F836850186BFFAB000FE101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F83684E186BFFAB000FE101 /* InfoPlist.strings */; };
 		9F836852186BFFAB000FE101 /* refuelioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836851186BFFAB000FE101 /* refuelioTests.m */; };
 		9FC24051186CBF77007CDEAC /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC24050186CBF77007CDEAC /* Crashlytics.framework */; };
+		9FDF2419186D514200CBC97F /* DocumentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF2418186D514200CBC97F /* DocumentHandler.m */; };
+		9FDF241B186D5BE900CBC97F /* refuelio-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FDF241A186D5BE900CBC97F /* refuelio-120x120.png */; };
+		9FDF2427186D5E2B00CBC97F /* Refueling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF2426186D5E2B00CBC97F /* Refueling.m */; };
+		9FDF242A186D5E2C00CBC97F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF2429186D5E2C00CBC97F /* User.m */; };
+		9FDF242D186D5E2C00CBC97F /* Fuel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF242C186D5E2C00CBC97F /* Fuel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +54,12 @@
 		9F3D1F5B186C000C004D7DB1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9F3D1F5C186C000C004D7DB1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		9F3D1F60186C001D004D7DB1 /* Refuelio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Refuelio.xcdatamodel; sourceTree = "<group>"; };
-		9F3D1F63186C0061004D7DB1 /* Fuel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fuel.h; sourceTree = "<group>"; };
-		9F3D1F64186C0061004D7DB1 /* Fuel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fuel.m; sourceTree = "<group>"; };
-		9F3D1F65186C0061004D7DB1 /* Refueling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Refueling.h; sourceTree = "<group>"; };
-		9F3D1F66186C0061004D7DB1 /* Refueling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Refueling.m; sourceTree = "<group>"; };
 		9F3D1F67186C0061004D7DB1 /* User+Authenticate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+Authenticate.h"; sourceTree = "<group>"; };
 		9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+Authenticate.m"; sourceTree = "<group>"; };
-		9F3D1F69186C0061004D7DB1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		9F3D1F6A186C0061004D7DB1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		9F3D1F6F186C0067004D7DB1 /* SessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionService.h; sourceTree = "<group>"; };
 		9F3D1F70186C0067004D7DB1 /* SessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionService.m; sourceTree = "<group>"; };
 		9F3D1F72186C00AD004D7DB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9F836823186BFFAA000FE101 /* refuelio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refuelio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F836823186BFFAA000FE101 /* Ahorrar al Repostar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahorrar al Repostar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F836826186BFFAA000FE101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F836828186BFFAA000FE101 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9F83682A186BFFAA000FE101 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,6 +78,15 @@
 		9F83684F186BFFAB000FE101 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F836851186BFFAB000FE101 /* refuelioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = refuelioTests.m; sourceTree = "<group>"; };
 		9FC24050186CBF77007CDEAC /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		9FDF2417186D514200CBC97F /* DocumentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentHandler.h; sourceTree = "<group>"; };
+		9FDF2418186D514200CBC97F /* DocumentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentHandler.m; sourceTree = "<group>"; };
+		9FDF241A186D5BE900CBC97F /* refuelio-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuelio-120x120.png"; sourceTree = "<group>"; };
+		9FDF2425186D5E2B00CBC97F /* Refueling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Refueling.h; path = ../Refueling.h; sourceTree = "<group>"; };
+		9FDF2426186D5E2B00CBC97F /* Refueling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Refueling.m; path = ../Refueling.m; sourceTree = "<group>"; };
+		9FDF2428186D5E2C00CBC97F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		9FDF2429186D5E2C00CBC97F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
+		9FDF242B186D5E2C00CBC97F /* Fuel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fuel.h; path = ../Fuel.h; sourceTree = "<group>"; };
+		9FDF242C186D5E2C00CBC97F /* Fuel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fuel.m; path = ../Fuel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,8 @@
 			children = (
 				9F3D1F6F186C0067004D7DB1 /* SessionService.h */,
 				9F3D1F70186C0067004D7DB1 /* SessionService.m */,
+				9FDF2417186D514200CBC97F /* DocumentHandler.h */,
+				9FDF2418186D514200CBC97F /* DocumentHandler.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -122,14 +129,14 @@
 		9F3D1F62186C0061004D7DB1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9F3D1F63186C0061004D7DB1 /* Fuel.h */,
-				9F3D1F64186C0061004D7DB1 /* Fuel.m */,
-				9F3D1F65186C0061004D7DB1 /* Refueling.h */,
-				9F3D1F66186C0061004D7DB1 /* Refueling.m */,
+				9FDF242B186D5E2C00CBC97F /* Fuel.h */,
+				9FDF242C186D5E2C00CBC97F /* Fuel.m */,
+				9FDF2428186D5E2C00CBC97F /* User.h */,
+				9FDF2429186D5E2C00CBC97F /* User.m */,
+				9FDF2425186D5E2B00CBC97F /* Refueling.h */,
+				9FDF2426186D5E2B00CBC97F /* Refueling.m */,
 				9F3D1F67186C0061004D7DB1 /* User+Authenticate.h */,
 				9F3D1F68186C0061004D7DB1 /* User+Authenticate.m */,
-				9F3D1F69186C0061004D7DB1 /* User.h */,
-				9F3D1F6A186C0061004D7DB1 /* User.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,6 +144,7 @@
 		9F3D1F8A186C00CC004D7DB1 /* Attrezzo */ = {
 			isa = PBXGroup;
 			children = (
+				9FDF241A186D5BE900CBC97F /* refuelio-120x120.png */,
 				9F17D93D186C0D9C00753750 /* naked-logo.png */,
 			);
 			name = Attrezzo;
@@ -156,7 +164,7 @@
 		9F836824186BFFAA000FE101 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F836823186BFFAA000FE101 /* refuelio.app */,
+				9F836823186BFFAA000FE101 /* Ahorrar al Repostar.app */,
 				9F836844186BFFAA000FE101 /* refuelioTests.xctest */,
 			);
 			name = Products;
@@ -253,7 +261,7 @@
 			);
 			name = refuelio;
 			productName = refuelio;
-			productReference = 9F836823186BFFAA000FE101 /* refuelio.app */;
+			productReference = 9F836823186BFFAA000FE101 /* Ahorrar al Repostar.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9F836843186BFFAA000FE101 /* refuelioTests */ = {
@@ -314,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3D1F5E186C000C004D7DB1 /* LoginViewController.xib in Resources */,
+				9FDF241B186D5BE900CBC97F /* refuelio-120x120.png in Resources */,
 				9F83683F186BFFAA000FE101 /* Images.xcassets in Resources */,
 				9F836831186BFFAA000FE101 /* InfoPlist.strings in Resources */,
 				9F3D1F73186C00AD004D7DB1 /* Main.storyboard in Resources */,
@@ -382,14 +391,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDF242A186D5E2C00CBC97F /* User.m in Sources */,
+				9FDF242D186D5E2C00CBC97F /* Fuel.m in Sources */,
 				9F3D1F5D186C000C004D7DB1 /* LoginViewController.m in Sources */,
 				9F3D1F61186C001D004D7DB1 /* Refuelio.xcdatamodeld in Sources */,
-				9F3D1F6E186C0061004D7DB1 /* User.m in Sources */,
 				9F836833186BFFAA000FE101 /* main.m in Sources */,
-				9F3D1F6B186C0061004D7DB1 /* Fuel.m in Sources */,
+				9FDF2427186D5E2B00CBC97F /* Refueling.m in Sources */,
 				9F3D1F71186C0067004D7DB1 /* SessionService.m in Sources */,
 				9F83683D186BFFAA000FE101 /* RefuelioViewController.m in Sources */,
-				9F3D1F6C186C0061004D7DB1 /* Refueling.m in Sources */,
+				9FDF2419186D514200CBC97F /* DocumentHandler.m in Sources */,
 				9F836837186BFFAA000FE101 /* RefuelioAppDelegate.m in Sources */,
 				9F3D1F6D186C0061004D7DB1 /* User+Authenticate.m in Sources */,
 			);
@@ -518,7 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "refuelio/refuelio-Prefix.pch";
 				INFOPLIST_FILE = "refuelio/refuelio-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ahorrar al Repostar";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -536,7 +546,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "refuelio/refuelio-Prefix.pch";
 				INFOPLIST_FILE = "refuelio/refuelio-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ahorrar al Repostar";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

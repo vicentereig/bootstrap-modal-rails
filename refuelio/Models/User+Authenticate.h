@@ -9,8 +9,14 @@
 #import "User.h"
 
 @interface User (Authenticate)
+
+typedef void (^LoginSuccededBlock)(User *authenticatedUser);
+typedef void (^LoginFailedBlock)(NSError *error);
+
 + (User*) authenticateWithEmail:(NSString*) email
                     AndPassword:(NSString*) password
-         inManagedObjectContext:(NSManagedObjectContext*) context;
+         inManagedObjectContext:(NSManagedObjectContext*) context
+                      succeeded:(LoginSuccededBlock)successCallback
+                         failed:(LoginFailedBlock)failureCallback;
 
 @end

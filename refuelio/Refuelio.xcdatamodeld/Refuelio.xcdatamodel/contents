@@ -15,12 +15,13 @@
         <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="refuelings" inverseEntity="User" syncable="YES"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="authToken" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="email" attributeType="String" minValueString="3" indexed="YES" syncable="YES"/>
         <relationship name="refuelings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Refueling" inverseName="user" inverseEntity="Refueling" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Fuel" positionX="556" positionY="216" width="128" height="88"/>
-        <element name="Refueling" positionX="268" positionY="140" width="128" height="148"/>
-        <element name="User" positionX="-45" positionY="207" width="128" height="103"/>
+        <element name="Fuel" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Refueling" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="User" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

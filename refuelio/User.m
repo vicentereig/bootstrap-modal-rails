@@ -2,7 +2,7 @@
 //  User.m
 //  refuelio
 //
-//  Created by Vicente Reig Rincon de Arellano on 12/25/13.
+//  Created by Vicente Reig Rincon de Arellano on 12/26/13.
 //  Copyright (c) 2013 Contrail Studio SL. All rights reserved.
 //
 
@@ -12,8 +12,8 @@
 
 @implementation User
 
-@dynamic authToken;
 @dynamic email;
+@dynamic authToken;
 @dynamic refuelings;
 
 @end
