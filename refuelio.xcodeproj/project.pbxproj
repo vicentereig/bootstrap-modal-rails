@@ -31,6 +31,7 @@
 		9F836848186BFFAA000FE101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F83682A186BFFAA000FE101 /* UIKit.framework */; };
 		9F836850186BFFAB000FE101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F83684E186BFFAB000FE101 /* InfoPlist.strings */; };
 		9F836852186BFFAB000FE101 /* refuelioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836851186BFFAB000FE101 /* refuelioTests.m */; };
+		9FC24051186CBF77007CDEAC /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC24050186CBF77007CDEAC /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		9F83684D186BFFAA000FE101 /* refuelioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "refuelioTests-Info.plist"; sourceTree = "<group>"; };
 		9F83684F186BFFAB000FE101 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F836851186BFFAB000FE101 /* refuelioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = refuelioTests.m; sourceTree = "<group>"; };
+		9FC24050186CBF77007CDEAC /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F836829186BFFAA000FE101 /* CoreGraphics.framework in Frameworks */,
+				9FC24051186CBF77007CDEAC /* Crashlytics.framework in Frameworks */,
 				9F83682B186BFFAA000FE101 /* UIKit.framework in Frameworks */,
 				9F836827186BFFAA000FE101 /* Foundation.framework in Frameworks */,
 				38042337392D4A2C8AE7FEE7 /* libPods.a in Frameworks */,
@@ -162,6 +165,7 @@
 		9F836825186BFFAA000FE101 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FC24050186CBF77007CDEAC /* Crashlytics.framework */,
 				9F836826186BFFAA000FE101 /* Foundation.framework */,
 				9F836828186BFFAA000FE101 /* CoreGraphics.framework */,
 				9F83682A186BFFAA000FE101 /* UIKit.framework */,
@@ -241,6 +245,7 @@
 				9F836820186BFFAA000FE101 /* Frameworks */,
 				9F836821186BFFAA000FE101 /* Resources */,
 				EE78BB00444944DF90FDF3A9 /* Copy Pods Resources */,
+				9FAAAEA6186CBF10001D5BB1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -341,6 +346,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		9FAAAEA6186CBF10001D5BB1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 53e759f75db846b829ff35a614a509427aeac692";
 		};
 		EE78BB00444944DF90FDF3A9 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -493,6 +511,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vincente/Developer/refuelio,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "refuelio/refuelio-Prefix.pch";
 				INFOPLIST_FILE = "refuelio/refuelio-Info.plist";
@@ -507,6 +529,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vincente/Developer/refuelio,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "refuelio/refuelio-Prefix.pch";
 				INFOPLIST_FILE = "refuelio/refuelio-Info.plist";

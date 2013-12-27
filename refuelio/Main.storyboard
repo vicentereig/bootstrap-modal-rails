@@ -74,6 +74,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dgz-G0-reE">
+            <objects>
+                <viewController id="IzM-7d-2fP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gIx-EM-gBg"/>
+                        <viewControllerLayoutGuide type="bottom" id="uAP-hi-czM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9RS-BH-llP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOG-C0-MSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="7"/>
+        </scene>
     </scenes>
     <resources>
         <image name="naked-logo.png" width="800" height="800"/>

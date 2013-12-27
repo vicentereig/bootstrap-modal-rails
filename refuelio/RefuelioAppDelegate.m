@@ -7,12 +7,13 @@
 //
 
 #import "RefuelioAppDelegate.h"
+#import <Crashlytics/Crashlytics.h>
 
 @implementation RefuelioAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Crashlytics startWithAPIKey:@"53e759f75db846b829ff35a614a509427aeac692"];
     return YES;
 }
 							
