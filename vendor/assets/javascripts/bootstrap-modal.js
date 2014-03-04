@@ -1,5 +1,5 @@
 /* ===========================================================
- * bootstrap-modal.js v2.2.0
+ * bootstrap-modal.js v2.2.4
  * ===========================================================
  * Copyright 2012 Jordan Schroter
  *
@@ -315,7 +315,8 @@
 			this.$element.removeData('modal');
 			this.$element
 				.removeClass('in')
-				.attr('aria-hidden', true);
+				.attr('aria-hidden', true)
+				.trigger('destroyed');
 		}
 	};
 
