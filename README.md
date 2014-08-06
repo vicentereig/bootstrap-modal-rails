@@ -7,9 +7,17 @@ Rails Asset Gem for the default [Bootstrap Modal](https://github.com/jschr/boots
 Add these lines to your application's `Gemfile`:
 
 ```ruby
+
+### Rails 3 or previous
+
 group :assets do
  gem 'bootstrap-modal-rails'
 end
+
+### Rails 4
+
+gem 'bootstrap-modal-rails'
+
 ```
 
 And then execute:
@@ -31,14 +39,22 @@ $ gem install bootstrap-modal-rails
 ```sass
 //=require bootstrap-modal
 ```
+Or if you are using Rails 4
+
+```sass
+ *= require bootstrap-modal-bs3patch
+ *= require bootstrap-modal
+```
 
 ### Javascripts
 
+coffeescript
 ```coffeescript
 #= require bootstrap-modal
 #= require bootstrap-modalmanager
 ```
 
+javascript
 ```javascript
 //= require bootstrap-modal
 //= require bootstrap-modalmanager
