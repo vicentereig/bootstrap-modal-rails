@@ -40,7 +40,6 @@ $ gem install bootstrap-modal-rails
 //=require tree .
 //=require bootstrap-modal
 ```
-
 Or if you are using Rails 4
 
 ```sass
@@ -49,7 +48,7 @@ Or if you are using Rails 4
  *= require bootstrap-modal
 ```
 
-Note: It must appear after your require tree because if bootstrap_and_overrides.css will overwrite much of the logic. 
+Note: It must appear after your require tree because otherwise bootstrap includes will overwrite much of the logic. 
 
 The other alternative is to manually place the css file inside any arbitrary folder within app/assets/stylesheets/ (ex. anyFolder/bootstrap-modal.css). then you will not need to require bootstrap-modal, but require tree . will be necessary.
 
