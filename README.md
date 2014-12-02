@@ -48,7 +48,7 @@ Or if you are using Rails 4
  *= require bootstrap-modal
 ```
 
-Note: It must appear after your require tree because otherwise bootstrap includes will overwrite much of the logic. 
+Note: It must appear after your require tree because otherwise bootstrap includes will overwrite much of the logic. This will result in margin-top and height issues where you will only see the bottom half of the modal because its too high up. 
 
 The other alternative is to manually place the css file inside any arbitrary folder within app/assets/stylesheets/ (ex. anyFolder/bootstrap-modal.css). then you will not need to require bootstrap-modal, but require tree . will be necessary.
 
