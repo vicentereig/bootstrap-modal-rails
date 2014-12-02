@@ -37,14 +37,23 @@ $ gem install bootstrap-modal-rails
 ### Stylesheets
 
 ```sass
+//=require tree .
 //=require bootstrap-modal
 ```
 Or if you are using Rails 4
 
 ```sass
+ *= require tree .
  *= require bootstrap-modal-bs3patch
  *= require bootstrap-modal
 ```
+
+Note: It must appear after your require tree because otherwise bootstrap includes will overwrite much of the logic. This will result in margin-top and height issues where you will only see the bottom half of the modal because its too high up. 
+
+The other alternative is to manually place the css file inside any arbitrary folder within app/assets/stylesheets/ (ex. anyFolder/bootstrap-modal.css). then you will not need to require bootstrap-modal, but require tree . will be necessary.
+
+You can download the css file from here: 
+https://raw.githubusercontent.com/vicentereig/bootstrap-modal-rails/master/vendor/assets/stylesheets/bootstrap-modal.css
 
 ### Javascripts
 
